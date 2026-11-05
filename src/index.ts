@@ -1,2 +1,8 @@
-/** Registration metadata for this skeleton; not a domain or API schema. */
-export const moduleDefinition = {id: 'module-boilerplate-nextjs', presentation: 'next-react', status: 'skeleton'} as const;
+/** Skeleton registration metadata; this is not a domain/API contract. */
+export const moduleDefinition = {
+  "id": "module-liberu-revenue-and-care-orchestration-68bcf257-nextjs",
+  "presentation": "next-react",
+  "capabilityKey": "liberusoftware/liberu-revenue-and-care-orchestration",
+  "status": "skeleton",
+  "documentation": "https://github.com/liberusoftware/documentation/blob/main/projects/automation/nextjs/liberu-revenue-and-care-orchestration.md"
+} as const;
